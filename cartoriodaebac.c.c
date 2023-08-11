@@ -130,6 +130,7 @@ int main()
 		printf("\t1.registrar ou cadastrar nomes\n\n");
 		printf("\t2.consultar nomes\n\n");
 		printf("\t3.deletar nomes\n\n");
+		printf("\t4.Sair do sistema\n\n");
 		printf("*Esse é o novo software do Dário*\n\n");
 		printf("*Digite aqui sua resposta:*"); //fim do menu
 	
@@ -149,6 +150,11 @@ int main()
 		
 		case 3:
 		deletar();
+		break;
+		
+		case 4;
+		printf("Obrigado pela preferência\n");
+		return 0
 		break;
 		
 		default:
